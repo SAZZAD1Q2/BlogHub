@@ -17,6 +17,5 @@ class Comment < ApplicationRecord
   end
 end
 
-
 # first_user = User.create(username: 'sadsif', email: 'saidsf@gmail.com', password: '123545')
 # second_user = User.create(username: 'dsadf', email: 'edr@gmail.com', password: 'p343')
