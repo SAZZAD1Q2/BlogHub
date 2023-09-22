@@ -5,7 +5,7 @@
 # end
 
 class Post < ApplicationRecord
- belongs_to :author, class_name: 'User', foreign_key: 'user_id'
+  belongs_to :author, class_name: 'User', foreign_key: 'user_id'
   has_many :comments
   has_many :likes
 
@@ -24,7 +24,3 @@ class Post < ApplicationRecord
     comments.order(created_at: :desc).limit(5)
   end
 end
-
-
-
-
